@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.Test.Login_Class_Test">
+        <methods>
+          <include name="Validate_Disabled_Login_button_with_empty_fields_Test"/>
+          <include name="Validate_Redirect_to_Password_Recovery_Page_Test"/>
+          <include name="Validate_Enabled_Login_button_with_valid_input_Test"/>
+          <include name="Validate_Invalid_credentials_Test"/>
+          <include name="Validate_Retain_values_after_failed_login_Test"/>
+          <include name="setup"/>
+          <include name="Validate_Successful_login_Test"/>
+          <include name="Validate_Password_Recovery_Functionality_Test"/>
+        </methods>
+      </class> <!-- com.Test.Login_Class_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
